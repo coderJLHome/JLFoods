@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  JLFoods
+//
+//  Created by Jay.Liu on 17/1/5.
+//  Copyright © 2017年 Jay.Liu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#pragma mark - 自定义宏
+//  屏幕的frame
+#define kDeviceFrame [UIScreen mainScreen].bounds
+//  屏幕的size
+#define kDeviceSize [UIScreen mainScreen].bounds.size
+
+#define kScreenWidth DeviceSize.width
+#define kScreenHeight DeviceSize.height
+
+#endif /* PrefixHeader_pch */
